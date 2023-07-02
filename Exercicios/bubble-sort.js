@@ -29,7 +29,7 @@ function printArray(arr) {
     }
 }
   
-const arr = [64, 34, 25, 12, 22, 11, 90];
+const arr = [5, 3, 2, 4, 7, 1, 6];
 bubbleSort(arr);
 console.log("Sorted array:");
 printArray(arr);
