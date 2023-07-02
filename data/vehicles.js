@@ -48,7 +48,6 @@ class Vehicles {
         }
     }
 
-  
     getVehicleById(id) {
         return this.vehicles.find((vehicle) => vehicle.id === id);
     }

@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
 // GET /veiculos
 router.get('/veiculos', (req, res) => {
     const allVehicles = vehiclesInstance.getAllVehicles();
+    
     res.json(allVehicles);
 });
 
@@ -34,6 +35,49 @@ router.get('/veiculos/:id', (req, res) => {
     }
 });
 
+// POST /veiculos
+router.post('/veiculos', (req, res) => {
+    const newVehicle = req.body;
+    const createdVehicle = vehiclesInstance.addVehicle(newVehicle);
+    res.status(201).json(createdVehicle);
+});
 
+// PUT /veiculos/:id
+router.put('/veiculos/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const updatedVehicle = req.body;
+    const updatedVehicleResult = vehiclesInstance.updateVehicle(id, updatedVehicle);
+
+    if (updatedVehicleResult) {
+        res.json(updatedVehicleResult);
+    } else {
+        res.status(404).json({ error: 'Veículo não encontrado.' });
+    }
+});
+
+// PATCH /veiculos/:id
+router.patch('/veiculos/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const updatedFields = req.body;
+    const patchedVehicle = vehiclesInstance.patchVehicle(id, updatedFields);
+    
+    if (patchedVehicle) {
+        res.json(patchedVehicle);
+    } else {
+        res.status(404).json({ error: 'Veículo não encontrado.' });
+    }
+});
+
+// DELETE /veiculos/:id
+router.delete('/veiculos/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const deletedVehicle = vehiclesInstance.deleteVehicle(id);
+    
+    if (deletedVehicle) {
+        res.sendStatus(204);
+    } else {
+        res.status(404).json({ error: 'Veículo não encontrado.' });
+    }
+});
 
 module.exports = router;
