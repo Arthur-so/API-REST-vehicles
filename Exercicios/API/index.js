@@ -5,7 +5,7 @@ const routes = require('./transactions/routes'); // Importe o arquivo de rotas
 // Middleware para analise JSON
 app.use(express.json());
 
-// Defina o uso das rotas
+// Define o uso das rotas
 app.use('/', routes);
 
 // Inicia o servidor

@@ -1,4 +1,6 @@
 class Vehicles {
+    // Dados previamente adicionados,
+    // TODO: retirar esses dados e integrar com banco.
     constructor() {
       this.vehicles = [
         {
