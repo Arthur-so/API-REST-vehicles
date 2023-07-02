@@ -8,4 +8,10 @@ router.get('/', (req, res) => {
     res.send('Bem-vindo à API de Cadastro de Veículos!');
   });
 
-  module.exports = router;
+// GET /veiculos
+router.get('/veiculos', (req, res) => {
+    const allVehicles = vehiclesInstance.getAllVehicles();
+    res.json(allVehicles);
+});
+
+module.exports = router;
