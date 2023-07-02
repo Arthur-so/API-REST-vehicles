@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Arthur-so/Tinnova/issues"
   },
-  "homepage": "https://github.com/Arthur-so/Tinnova#readme"
+  "homepage": "https://github.com/Arthur-so/Tinnova#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
