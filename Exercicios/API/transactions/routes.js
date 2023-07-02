@@ -4,6 +4,8 @@ const Vehicles = require('../data/vehicles');
 
 const vehiclesInstance = new Vehicles();
 
+// TODO: testes unitários
+
 router.get('/', (req, res) => {
     res.send('Bem-vindo à API de Cadastro de Veículos!');
   });
