@@ -1,7 +1,3 @@
-function PASum(a1, an, n) {
-    return (an + 1) * an  
-}
-
 function sumMultiplesThreeFive(X) {
 
     // Sabe-se, pela soma de PA, que : soma = (firstMultiple * numMultiples * (numMultiples + 1)) / 2;
