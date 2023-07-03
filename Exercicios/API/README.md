@@ -2,6 +2,8 @@
 
 Esta é uma API JSON RESTful que permite o cadastro, atualização, exclusão e consulta de veículos. A API oferece endpoints para manipular os veículos, obter informações sobre a base de veículos e realizar filtros.
 
+A API foi construída usando [Node.js](https://nodejs.org) e [Express.js](https://expressjs.com) como framework web. Os dados são armazenados em memória, sem persistência em um banco de dados.
+
 ## Requisitos
 
 - Node.js (v12 ou superior)
@@ -61,3 +63,9 @@ Exemplo de um objeto de veículo:
   "created": "2023-07-01T10:30:00Z",
   "updated": "2023-07-01T10:30:00Z"
 }
+```
+
+##  Autor 
+Nome: Arthur Santos de Oliveira
+E-mail: arthursantos.oliveira001@gmail.com
+LinkedIn: https://www.linkedin.com/in/arthur-santos-de-oliveira-001/
