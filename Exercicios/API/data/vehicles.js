@@ -2,24 +2,15 @@ class Vehicles {
     // Dados previamente adicionados,
     // TODO: retirar esses dados e integrar com banco.
     constructor() {
+        
       this.vehicles = [
         {
           id: 1,
-          veiculo: 'Carro A',
-          marca: 'Marca A',
-          ano: 2020,
-          descricao: 'Descrição do Carro A',
+          veiculo: 'Gol',
+          marca: 'Volkswagen',
+          ano: 2010,
+          descricao: 'Um carro compacto e econômico.',
           vendido: false,
-          created: new Date(),
-          updated: new Date(),
-        },
-        {
-          id: 2,
-          veiculo: 'Carro B',
-          marca: 'Marca B',
-          ano: 2018,
-          descricao: 'Descrição do Carro B',
-          vendido: true,
           created: new Date(),
           updated: new Date(),
         },
