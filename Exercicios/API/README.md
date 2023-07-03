@@ -65,7 +65,8 @@ Exemplo de um objeto de veículo:
 }
 ```
 
-##  Autor 
-- Nome: Arthur Santos de Oliveira
-- E-mail: arthursantos.oliveira001@gmail.com
-- LinkedIn: https://www.linkedin.com/in/arthur-santos-de-oliveira-001/
+## Autor
+
+- **Nome:** Arthur Santos de Oliveira
+- **E-mail:** arthursantos.oliveira001@gmail.com
+- **LinkedIn:** [Arthur Santos de Oliveira](https://www.linkedin.com/in/arthur-santos-de-oliveira-001/)
