@@ -64,9 +64,3 @@ Exemplo de um objeto de veículo:
   "updated": "2023-07-01T10:30:00Z"
 }
 ```
-
-## Autor
-
-- **Nome:** Arthur Santos de Oliveira
-- **E-mail:** arthursantos.oliveira001@gmail.com
-- **LinkedIn:** [Arthur Santos de Oliveira](https://www.linkedin.com/in/arthur-santos-de-oliveira-001/)
